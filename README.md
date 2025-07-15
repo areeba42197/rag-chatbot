@@ -9,22 +9,22 @@ This project is a **Retrieval-Augmented Generation (RAG)** chatbot built using *
 │
 ├── chatbot/
 │ ├── init.py
-│ ├── app.py # Main chatbot script
-│ ├── loader.py # Loads and splits PDF files
-│ ├── embedder.py # Embedding generation and vector store logic
-│ ├── gemini_llm.py # Gemini API wrapper
-│ └── rag_chain.py # Chain configuration for retrieval-based QA
+│ ├── app.py 
+│ ├── loader.py 
+│ ├── embedder.py 
+│ ├── gemini_llm.py
+│ └── rag_chain.py 
 │
-├── data/ # Folder for PDF documents
-├── vectorstore/ # Folder where FAISS index is saved
-├── venv/ # Python virtual environment (excluded in Git)
-├── .env # Environment variables (API key, paths, etc.)
-├── .gitignore # Git ignore rules
-└── requirements.txt # Python dependencies
+├── data/ 
+├── vectorstore/ 
+├── venv/ 
+├── .env # Environment variables 
+├── .gitignore
+└── requirements.txt
 
 
 
-  Setup Instructions
+  **Setup Instructions**
 
  1. Clone the Repository
 
