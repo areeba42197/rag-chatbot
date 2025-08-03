@@ -1,6 +1,6 @@
- 🤖 RAG Chatbot with Gemini + LangChain
+ 🤖 Langchain Rag chatbot with tool calling 
 
-This project is a **Retrieval-Augmented Generation (RAG)** chatbot built using **LangChain** and **Google's Gemini API**. It takes PDF documents as input, creates vector embeddings using HuggingFace, stores them in a FAISS vector database, and uses a Large Language Model to answer user queries based on the document content.
+This project is a **Retrieval-Augmented Generation (RAG)** chatbot with tool calling  built using **LangChain** and **Groqs API**. It takes PDF documents as input, creates vector embeddings using HuggingFace, stores them in a FAISS vector database, and uses a Large Language Model to answer user queries based on the document content.It has two tools "weather tool " and "current location tool".
 
 ---
 
